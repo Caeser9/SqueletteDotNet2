@@ -1,5 +1,7 @@
 using AM.ApplicationCore.Interfaces;
 using AM.Infrastructure;
+using Examen.ApplicationCore.Interfaces;
+using Examen.ApplicationCore.Services;
 using Examen.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,7 +15,8 @@ builder.Services.AddDbContext<DbContext, ExamenContext>();
 
 
 // instanciation des services
-
+builder.Services.AddScoped<IArtisteService, ArtisteService>();
+builder.Services.AddScoped<IChansonService, ChansonService>();
 
 var app = builder.Build();
 
