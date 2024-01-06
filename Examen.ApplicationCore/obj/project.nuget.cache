@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8/57IEgI3YriU/nsbSid40XK7aY6vHRN3E/Mf+CIEPrJzJ/DSKUUI98xnCvULLPgChPo+2KOtfRPGv5Auz2Hqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kayce\\Documents\\myfuckingfiles\\esprit\\4SAE\\.NET\\ExamenEya\\SqueletteExamen\\ExamenImp\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kayce\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
